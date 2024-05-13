@@ -1,0 +1,14 @@
+.caja{
+    display: flex;
+    justify-content: center;
+
+}
+.fotop{
+    width: 500px;
+}
+.calc-imc{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}

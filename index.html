@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mascota</title>
+  <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">CALCULAR IMC Y EDAD MASCOTA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#imc">IMC</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#edm">EDAD DE LA MASCOTA</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="caja">
+    <img class="fotop" src="img/WhatsApp Image 2024-05-12 at 16.24.11.jpeg" alt="">
+    <h2>Mayki</h2>
+</div>
+<div class="calc-imc">
+    <a name="imc"></a>
+    <h2>
+        calcular IMC
+    </h2>
+    <label for="p1">Peso</label>
+    <input type="text" id="p1" placeholder="libras">
+    <label for="alt">Altura</label>
+    <input type="text" id="pie" placeholder="Pies">
+    <input type="text" id="pulg" placeholder="Pulgadas">
+    <button onclick="IMC()">
+        calcular
+    </button>
+    <H3>IMC</H3>
+    <p id="IMC" class="IMCR"></p>
+    <h3>Clasificacion</h3>
+    <p id="cla" class="claR"></p>
+    <a name="edm"></a>                   
+    <h2>Calcular edad de la Mascota</h2>
+    <label for="ed">Edad de tu mascota</label>
+    <input type="text" id="ed">
+    <button onclick="Perro()"> calcular</button>
+    <h3>la edad de tu perro es:</h3>
+    <p id="eph" class="ephr"></p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+<script src="java.js"></script>
+</body>
+</html>
